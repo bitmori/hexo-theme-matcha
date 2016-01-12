@@ -14,16 +14,16 @@ git clone https://github.com/neonmori/hexo-theme-matcha.git themes/matcha
 
 ## Usage
 
-修改 `_config.yml` 的 `theme` 配置项为 `matcha`:
+Change `_config.yml` > `theme` -> `matcha`:
 
 ```yaml
-theme: apollo
+theme: matcha
 ```
 
 ## Update
 
 ``` bash
-cd themes/apollo 
+cd themes/matcha 
 git pull
 ```
 
