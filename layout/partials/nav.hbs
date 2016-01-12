@@ -1,0 +1,7 @@
+<ul class="nav nav-list">
+    {{#each theme.menu}}
+        <li class="nav-list-item">
+            <a href="{{this}}" target="{{get_tar this}}" class="nav-list-link {{#if (is_home)}}{{attach_active this}}{{/if}}">{{get_upper_case @key}}</a>
+        </li>
+    {{/each}}
+</ul>

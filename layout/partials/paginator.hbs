@@ -1,0 +1,12 @@
+<div class="paginator">
+    {{#if prev}}
+        <a href="{{ url_for prev }}" class="prev">PREV</a>
+    {{else}}
+        <a class="prev"></a>
+    {{/if}}
+    {{#if next}}
+        <a href="{{ url_for next }}" class="next">NEXT</a>
+    {{else}}
+        <a class="next"></a>
+    {{/if}}
+</div>

@@ -1,0 +1,14 @@
+<ul class="home post-list">
+    {{#foreach page.posts}}
+        <li class="post-list-item">
+            <article class="post-block">
+                <h2 class="post-title">
+                    <a href="{{url_for path}}" class="post-title-link">{{title}}</a>
+                </h2>
+                {{> postInfo}}
+                <div class="post-content">{{excerpt}}</div>
+                <a href="{{url_for path}}" class="read-more"> ... more </a>
+            </article>
+        </li>
+    {{/foreach}}
+</ul>
